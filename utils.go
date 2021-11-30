@@ -12,7 +12,7 @@ import (
 
 const nekoUrl = "https://nekos.life/api/v2/"
 
-func DoRequest(target string) (res Responses) {
+func req(target string) Response {
 	reqUrl := fmt.Sprintf("%s/%s", nekoUrl, target)
 	resp, err := http.Get(reqUrl)
 	if err != nil {

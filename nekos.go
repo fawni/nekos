@@ -10,342 +10,342 @@ import (
 // found in https://github.com/Nekos-life/nekos-dot-life/blob/master/endpoints.json
 // nsfw
 func RandomHentaiGif() string {
-	res := DoRequest("img/Random_hentai_gif")
+	res := req("img/Random_hentai_gif")
 	return res.Url
 }
 
 func Pussy() string {
-	res := DoRequest("img/pussy")
+	res := req("img/pussy")
 	return res.Url
 }
 
 func LewdNekoGif() string {
-	res := DoRequest("img/nsfw_neko_gif")
+	res := req("img/nsfw_neko_gif")
 	return res.Url
 }
 
 func LewdNeko() string {
-	res := DoRequest("img/lewd")
+	res := req("img/lewd")
 	return res.Url
 }
 
 func Lesbian() string {
-	res := DoRequest("img/les")
+	res := req("img/les")
 	return res.Url
 }
 
 func Kuni() string {
-	res := DoRequest("img/kuni")
+	res := req("img/kuni")
 	return res.Url
 }
 
 func Cumsluts() string {
-	res := DoRequest("img/cum")
+	res := req("img/cum")
 	return res.Url
 }
 
 func Classic() string {
-	res := DoRequest("img/classic")
+	res := req("img/classic")
 	return res.Url
 }
 
 func Boobs() string {
-	res := DoRequest("img/boobs")
+	res := req("img/boobs")
 	return res.Url
 }
 
 func BlowJobGif() string {
-	res := DoRequest("img/bj")
+	res := req("img/bj")
 	return res.Url
 }
 
 func Anal() string {
-	res := DoRequest("img/anal")
+	res := req("img/anal")
 	return res.Url
 }
 
 func LewdAvatar() string {
-	res := DoRequest("img/nsfw_avatar")
+	res := req("img/nsfw_avatar")
 	return res.Url
 }
 
 func Yuri() string {
-	res := DoRequest("img/yuri")
+	res := req("img/yuri")
 	return res.Url
 }
 
 func Trap() string {
-	res := DoRequest("img/trap")
+	res := req("img/trap")
 	return res.Url
 }
 
 func Tits() string {
-	res := DoRequest("img/tits")
+	res := req("img/tits")
 	return res.Url
 }
 
 func GirlSoloGif() string {
-	res := DoRequest("img/solog")
+	res := req("img/solog")
 	return res.Url
 }
 
 func GirlSolo() string {
-	res := DoRequest("img/solos")
+	res := req("img/solos")
 	return res.Url
 }
 
 func PussyWankGif() string {
-	res := DoRequest("img/pwankg")
+	res := req("img/pwankg")
 	return res.Url
 }
 
 func PussyArt() string {
-	res := DoRequest("img/pussy_jpg")
+	res := req("img/pussy_jpg")
 	return res.Url
 }
 
 func LewdKemonomimi() string {
-	res := DoRequest("img/lewdkemo")
+	res := req("img/lewdkemo")
 	return res.Url
 }
 
 func Kitsune() string {
-	res := DoRequest("img/lewdk")
+	res := req("img/lewdk")
 	return res.Url
 }
 
 func Keta() string {
-	res := DoRequest("img/keta")
+	res := req("img/keta")
 	return res.Url
 }
 
 func LewdHolo() string {
-	res := DoRequest("img/hololewd")
+	res := req("img/hololewd")
 	return res.Url
 }
 
 func HoloEro() string {
-	res := DoRequest("img/holoero")
+	res := req("img/holoero")
 	return res.Url
 }
 
 func Hentai() string {
-	res := DoRequest("img/hentai")
+	res := req("img/hentai")
 	return res.Url
 }
 
 func Futanari() string {
-	res := DoRequest("img/futanari")
+	res := req("img/futanari")
 	return res.Url
 }
 
 func Femdom() string {
-	res := DoRequest("img/femdom")
+	res := req("img/femdom")
 	return res.Url
 }
 
 func FeetGif() string {
-	res := DoRequest("img/feetg")
+	res := req("img/feetg")
 	return res.Url
 }
 
 func EroFeet() string {
-	res := DoRequest("img/erofeet")
+	res := req("img/erofeet")
 	return res.Url
 }
 
 func Feet() string {
-	res := DoRequest("img/feet")
+	res := req("img/feet")
 	return res.Url
 }
 
 func Ero() string {
-	res := DoRequest("img/ero")
+	res := req("img/ero")
 	return res.Url
 }
 
 func EroKitsune() string {
-	res := DoRequest("img/erok")
+	res := req("img/erok")
 	return res.Url
 }
 
 func EroKemonomimi() string {
-	res := DoRequest("img/erokemo")
+	res := req("img/erokemo")
 	return res.Url
 }
 
 func EroNeko() string {
-	res := DoRequest("img/eron")
+	res := req("img/eron")
 	return res.Url
 }
 
 func EroYuri() string {
-	res := DoRequest("img/eroyuri")
+	res := req("img/eroyuri")
 	return res.Url
 }
 
 func CumArts() string {
-	res := DoRequest("img/cum_jpg")
+	res := req("img/cum_jpg")
 	return res.Url
 }
 
 func BlowJob() string {
-	res := DoRequest("img/blowjob")
+	res := req("img/blowjob")
 	return res.Url
 }
 func Spank() string {
-	res := DoRequest("img/spank")
+	res := req("img/spank")
 	return res.Url
 }
 func Gasm() string {
-	res := DoRequest("img/gasm")
+	res := req("img/gasm")
 	return res.Url
 }
 
 // sfw
 func Tickle() string {
-	res := DoRequest("img/tickle")
+	res := req("img/tickle")
 	return res.Url
 }
 
 func Slap() string {
-	res := DoRequest("img/slap")
+	res := req("img/slap")
 	return res.Url
 }
 
 func Poke() string {
-	res := DoRequest("img/poke")
+	res := req("img/poke")
 	return res.Url
 }
 
 func Pat() string {
-	res := DoRequest("img/pat")
+	res := req("img/pat")
 	return res.Url
 }
 
 func Neko() string {
-	res := DoRequest("img/neko")
+	res := req("img/neko")
 	return res.Url
 }
 
 func Meow() string {
-	res := DoRequest("img/meow")
+	res := req("img/meow")
 	return res.Url
 }
 
 func Lizard() string {
-	res := DoRequest("img/lizard")
+	res := req("img/lizard")
 	return res.Url
 }
 
 func Kiss() string {
-	res := DoRequest("img/kiss")
+	res := req("img/kiss")
 	return res.Url
 }
 
 func Hug() string {
-	res := DoRequest("img/hug")
+	res := req("img/hug")
 	return res.Url
 }
 
 func FoxGirl() string {
-	res := DoRequest("img/fox_girl")
+	res := req("img/fox_girl")
 	return res.Url
 }
 
 func Feed() string {
-	res := DoRequest("img/feed")
+	res := req("img/feed")
 	return res.Url
 }
 
 func Cuddle() string {
-	res := DoRequest("img/cuddle")
+	res := req("img/cuddle")
 	return res.Url
 }
 
 func Why() string {
-	res := DoRequest("why")
+	res := req("why")
 	return res.Why
 }
 
 func CatText() string {
-	res := DoRequest("cat")
+	res := req("cat")
 	return res.Cat
 }
 
 func Owoify(text string) string {
 	target := fmt.Sprintf("owoify?text=%s", url.QueryEscape(text))
-	res := DoRequest(target)
+	res := req(target)
 	return res.Owo
 }
 
 func EightBall() (string, string) {
-	res := DoRequest("8ball")
+	res := req("8ball")
 	return res.Response, res.Url
 }
 
 func Fact() string {
-	res := DoRequest("fact")
+	res := req("fact")
 	return res.Fact
 }
 
 func NekoGif() string {
-	res := DoRequest("img/ngif")
+	res := req("img/ngif")
 	return res.Url
 }
 
 func Kemonomimi() string {
-	res := DoRequest("img/kemonomimi")
+	res := req("img/kemonomimi")
 	return res.Url
 }
 
 func Holo() string {
-	res := DoRequest("img/holo")
+	res := req("img/holo")
 	return res.Url
 }
 
 func Smug() string {
-	res := DoRequest("img/smug")
+	res := req("img/smug")
 	return res.Url
 }
 
 func Baka() string {
-	res := DoRequest("img/baka")
+	res := req("img/baka")
 	return res.Url
 }
 
 func Woof() string {
-	res := DoRequest("img/woof")
+	res := req("img/woof")
 	return res.Url
 }
 
 func Spoiler(text string) string {
 	target := fmt.Sprintf("spoiler?text=%s", url.QueryEscape(text))
-	res := DoRequest(target)
+	res := req(target)
 	return res.Owo
 }
 
 func Wallpaper() string {
-	res := DoRequest("img/wallpaper")
+	res := req("img/wallpaper")
 	return res.Url
 }
 
 func Goose() string {
-	res := DoRequest("img/goose")
+	res := req("img/goose")
 	return res.Url
 }
 
 func Gecg() string {
-	res := DoRequest("img/gecg")
+	res := req("img/gecg")
 	return res.Url
 }
 
 func Avatar() string {
-	res := DoRequest("img/avatar")
+	res := req("img/avatar")
 	return res.Url
 }
 
 func Waifu() string {
-	res := DoRequest("img/waifu")
+	res := req("img/waifu")
 	return res.Url
 }
