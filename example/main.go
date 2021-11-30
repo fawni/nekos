@@ -14,4 +14,6 @@ func main() {
 	fmt.Println(nekos.CatText())
 	fmt.Println(nekos.Cuddle())
 	fmt.Println(nekos.Kitsune())
+	eightBallText, eightBallImage := nekos.EightBall()
+	fmt.Printf("8ball response: %s\n8ball image: %s", eightBallText, eightBallImage)
 }
