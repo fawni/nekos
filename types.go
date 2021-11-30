@@ -2,7 +2,7 @@
 
 package nekos
 
-type Responses struct {
+type Response struct {
 	Cat      string
 	Fact     string
 	Owo      string

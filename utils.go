@@ -14,19 +14,19 @@ const nekoUrl = "https://nekos.life/api/v2/"
 
 func req(target string) Response {
 	reqUrl := fmt.Sprintf("%s/%s", nekoUrl, target)
-	resp, err := http.Get(reqUrl)
+	res, err := http.Get(reqUrl)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	defer resp.Body.Close()
+	defer res.Body.Close()
 
-	body, err := ioutil.ReadAll(resp.Body)
+	body, err := ioutil.ReadAll(res.Body)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	var data Responses
+	var data Response
 	err = json.Unmarshal(body, &data)
 	if err != nil {
 		log.Fatal(err)
