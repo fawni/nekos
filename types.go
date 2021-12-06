@@ -10,3 +10,8 @@ type Response struct {
 	Url      string
 	Why      string
 }
+
+type Ball struct {
+	Text  string
+	Image string
+}

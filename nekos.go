@@ -279,10 +279,11 @@ func Owoify(text string) string {
 	return res.Owo
 }
 
-func EightBall() (text string, image string) {
+func EightBall() Ball {
 	res := req("8ball")
-	text, image = res.Response, res.Url
-	return
+	var ball Ball
+	ball.Text, ball.Image = res.Response, res.Url
+	return ball
 }
 
 func Fact() string {
