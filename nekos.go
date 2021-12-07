@@ -281,8 +281,7 @@ func Owoify(text string) string {
 
 func EightBall() Ball {
 	res := req("8ball")
-	var ball Ball
-	ball.Text, ball.Image = res.Response, res.Url
+	ball := Ball{res.Response, res.Url}
 	return ball
 }
 
