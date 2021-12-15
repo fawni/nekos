@@ -31,3 +31,7 @@ func main() {
 	fmt.Println(nekos.CatText())
 }
 ```
+
+## license
+
+[OSL-3.0](https://github.com/x6r/nekos/blob/master/LICENSE)
