@@ -7,235 +7,235 @@ import (
 	"net/url"
 )
 
-// NSFW: RandomHentaiGif returns the url of a hentai gif
+// RandomHentaiGif returns the url of a hentai NSFW gif
 func RandomHentaiGif() string {
 	res := req("img/Random_hentai_gif")
 	return res.Url
 }
 
-// NSFW: Pussy returns the url of a pussy image/gif
+// Pussy returns the url of a pussy NSFW image/gif
 func Pussy() string {
 	res := req("img/pussy")
 	return res.Url
 }
 
-// NSFW: LewdNekoGif returns the url of a neko gif
+// LewdNekoGif returns the url of a neko NSFW gif
 func LewdNekoGif() string {
 	res := req("img/nsfw_neko_gif")
 	return res.Url
 }
 
-// NSFW: LewdNeko returns the url of a neko image
+// LewdNeko returns the url of a neko NSFW image
 func LewdNeko() string {
 	res := req("img/lewd")
 	return res.Url
 }
 
-// NSFW: Lesbian returns the url of a lesbian image/gif
+// Lesbian returns the url of a lesbian NSFW image/gif
 func Lesbian() string {
 	res := req("img/les")
 	return res.Url
 }
 
-// NSFW: Kuni returns the url of a kuni image/gif
+// Kuni returns the url of a kuni NSFW image/gif
 func Kuni() string {
 	res := req("img/kuni")
 	return res.Url
 }
 
-// NSFW: Cumsluts returns the url of a cumslut image/gif
+// Cumsluts returns the url of a cumslut NSFW image/gif
 func Cumsluts() string {
 	res := req("img/cum")
 	return res.Url
 }
 
-// NSFW: Classic returns the url of the classic endpoint image/gif
+// Classic returns the url of the classic endpoint NSFW image/gif
 func Classic() string {
 	res := req("img/classic")
 	return res.Url
 }
 
-// NSFW: Boobs returns the url of a boobs image/gif
+// Boobs returns the url of a boobs NSFW image/gif
 func Boobs() string {
 	res := req("img/boobs")
 	return res.Url
 }
 
-// NSFW: BJ returns the url of a bj image/gif
+// BJ returns the url of a bj NSFW image/gif
 func BJ() string {
 	res := req("img/bj")
 	return res.Url
 }
 
-// NSFW: Anal returns the url of an anal image/gif
+// Anal returns the url of an anal NSFW image/gif
 func Anal() string {
 	res := req("img/anal")
 	return res.Url
 }
 
-// NSFW: LewdAvatar returns the url of an avatar image/gif
+// LewdAvatar returns the url of an avatar NSFW image/gif
 func LewdAvatar() string {
 	res := req("img/nsfw_avatar")
 	return res.Url
 }
 
-// NSFW: Yuri returns the url of a yuri image/gif
+// Yuri returns the url of a yuri NSFW image/gif
 func Yuri() string {
 	res := req("img/yuri")
 	return res.Url
 }
 
-// NSFW: Trap returns the url of a trap image/gif
+// Trap returns the url of a trap NSFW image/gif
 func Trap() string {
 	res := req("img/trap")
 	return res.Url
 }
 
-// NSFW: Tits returns the url of a tits image/gif
+// Tits returns the url of a tits NSFW image/gif
 func Tits() string {
 	res := req("img/tits")
 	return res.Url
 }
 
-// NSFW: GirlSoloGif returns the url of a solo girl gif
+// GirlSoloGif returns the url of a solo girl NSFW gif
 func GirlSoloGif() string {
 	res := req("img/solog")
 	return res.Url
 }
 
-// NSFW: GirlSolo returns the url of a solo girl image
+// GirlSolo returns the url of a solo girl NSFW image
 func GirlSolo() string {
 	res := req("img/solos")
 	return res.Url
 }
 
-// NSFW: PussyWankGif returns the url of a pussy masturbation gif
+// PussyWankGif returns the url of a pussy masturbation NSFW gif
 func PussyWankGif() string {
 	res := req("img/pwankg")
 	return res.Url
 }
 
-// NSFW: PussyArt returns the url of a pussy art image/gif
+// PussyArt returns the url of a pussy art NSFW image/gif
 func PussyArt() string {
 	res := req("img/pussy_jpg")
 	return res.Url
 }
 
-// NSFW: LewdKemonomimi returns the url of a kemonomimi image/gif
+// LewdKemonomimi returns the url of a kemonomimi NSFW image/gif
 func LewdKemonomimi() string {
 	res := req("img/lewdkemo")
 	return res.Url
 }
 
-// NSFW: Kitsune returns the url of a kitsune image/gif
+// Kitsune returns the url of a kitsune NSFW image/gif
 func Kitsune() string {
 	res := req("img/lewdk")
 	return res.Url
 }
 
-// NSFW: Keta returns the url of a keta image/gif
+// Keta returns the url of a keta NSFW image/gif
 func Keta() string {
 	res := req("img/keta")
 	return res.Url
 }
 
-// NSFW: LewdHolo returns the url of a holo image/gif
+// LewdHolo returns the url of a holo NSFW image/gif
 func LewdHolo() string {
 	res := req("img/hololewd")
 	return res.Url
 }
 
-// NSFW: HoloEro returns the url of a holo ero image/gif
+// HoloEro returns the url of a holo ero NSFW image/gif
 func HoloEro() string {
 	res := req("img/holoero")
 	return res.Url
 }
 
-// NSFW: Hentai returns the url of a hentai image/gif
+// Hentai returns the url of a hentai NSFW image/gif
 func Hentai() string {
 	res := req("img/hentai")
 	return res.Url
 }
 
-// NSFW: Futanari returns the url of a futa image/gif
+// Futanari returns the url of a futa NSFW image/gif
 func Futanari() string {
 	res := req("img/futanari")
 	return res.Url
 }
 
-// NSFW: Femdom returns the url of a femdom image/gif
+// Femdom returns the url of a femdom NSFW image/gif
 func Femdom() string {
 	res := req("img/femdom")
 	return res.Url
 }
 
-// NSFW: FeetGif returns the url of a feet gif
+// FeetGif returns the url of a feet NSFW gif
 func FeetGif() string {
 	res := req("img/feetg")
 	return res.Url
 }
 
-// NSFW: EroFeet returns the url of an ero feet image/gif
+// EroFeet returns the url of an ero feet NSFW image/gif
 func EroFeet() string {
 	res := req("img/erofeet")
 	return res.Url
 }
 
-// NSFW: Feet returns the url of a feet image
+// Feet returns the url of a feet NSFW image
 func Feet() string {
 	res := req("img/feet")
 	return res.Url
 }
 
-// NSFW: Ero returns the url of an ero image/gif
+// Ero returns the url of an ero NSFW image/gif
 func Ero() string {
 	res := req("img/ero")
 	return res.Url
 }
 
-// NSFW: EroKitsune returns the url of an ero kitsune image/gif
+// EroKitsune returns the url of an ero kitsune NSFW image/gif
 func EroKitsune() string {
 	res := req("img/erok")
 	return res.Url
 }
 
-// NSFW: EroKemonomimi returns the url of an ero kemonomimi image/gif
+// EroKemonomimi returns the url of an ero kemonomimi NSFW image/gif
 func EroKemonomimi() string {
 	res := req("img/erokemo")
 	return res.Url
 }
 
-// NSFW: EroNeko returns the url of an ero neko image/gif
+// EroNeko returns the url of an ero neko NSFW image/gif
 func EroNeko() string {
 	res := req("img/eron")
 	return res.Url
 }
 
-// NSFW: EroYuri returns the url of an ero yrui image/gif
+// EroYuri returns the url of an ero yrui NSFW image/gif
 func EroYuri() string {
 	res := req("img/eroyuri")
 	return res.Url
 }
 
-// NSFW: CumArts returns the url of a cum arts image/gif
+// CumArts returns the url of a cum arts NSFW image/gif
 func CumArts() string {
 	res := req("img/cum_jpg")
 	return res.Url
 }
 
-// NSFW: BlowJob returns the url of a blowjob image/gif
+// BlowJob returns the url of a blowjob NSFW image/gif
 func BlowJob() string {
 	res := req("img/blowjob")
 	return res.Url
 }
 
-// NSFW: Spank returns the url of a spank image/gif
+// Spank returns the url of a spank NSFW image/gif
 func Spank() string {
 	res := req("img/spank")
 	return res.Url
 }
 
-// NSFW: Gasm returns the url of a gasm image
+// Gasm returns the url of a gasm NSFW image
 func Gasm() string {
 	res := req("img/gasm")
 	return res.Url

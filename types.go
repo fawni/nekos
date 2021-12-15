@@ -12,7 +12,7 @@ type Response struct {
 	Why      string
 }
 
-// 8ball struct that contains its text and a corresponding text
+// Ball struct that contains 8ball response and a corresponding image
 type Ball struct {
 	Text  string
 	Image string
