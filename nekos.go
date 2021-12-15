@@ -61,8 +61,8 @@ func Boobs() string {
 	return res.Url
 }
 
-// BJ returns the url of a bj NSFW image/gif
-func BJ() string {
+// BlowJobGif returns the url of a bj NSFW gif
+func BlowJobGif() string {
 	res := req("img/bj")
 	return res.Url
 }
@@ -223,7 +223,7 @@ func CumArts() string {
 	return res.Url
 }
 
-// BlowJob returns the url of a blowjob NSFW image/gif
+// BlowJob returns the url of a blowjob NSFW image
 func BlowJob() string {
 	res := req("img/blowjob")
 	return res.Url
