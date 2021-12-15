@@ -8,7 +8,7 @@
 
 ## overview
 
-nekos is a feature-complete _unofficial_ nekos.life api wrapper written in go. each endpoint in the api has a function that returns its response(s).
+nekos is a feature-complete _unofficial_ [nekos.life](https://nekos.life/) api wrapper written in go. each endpoint in the api has a function that returns its response(s).
 
 ## installation
 
