@@ -1,4 +1,14 @@
-# nekos.life
+# nekos
+
+> 🐾 nya~
+
+[![Go Reference](https://pkg.go.dev/badge/github.com/x6r/nekos.svg)](https://pkg.go.dev/github.com/x6r/nekos)
+[![Go Report Card](https://goreportcard.com/badge/github.com/x6r/nekos)](https://goreportcard.com/report/github.com/x6r/nekos)
+[![Example](https://img.shields.io/badge/Example-./example%2F-C14DAA?style=flat)](https://github.com/x6r/nekos/blob/master/example/main.go)
+
+## overview
+
+nekos is a feature-complete _unofficial_ nekos.life api wrapper written in go. each endpoint in the api has a function that returns its response(s).
 
 ## installation
 
@@ -6,7 +16,7 @@
 go get github.com/x6r/nekos
 ```
 
-## example
+## usage
 
 ```go
 package main
