@@ -10,11 +10,11 @@ import (
 	"net/http"
 )
 
-const nekoUrl = "https://nekos.life/api/v2/"
+const neko = "https://nekos.life/api/v2"
 
-func req(target string) Response {
-	reqUrl := fmt.Sprintf("%s/%s", nekoUrl, target)
-	res, err := http.Get(reqUrl)
+func req(endpoint string) Response {
+	req := fmt.Sprintf("%s/%s", neko, endpoint)
+	res, err := http.Get(req)
 	if err != nil {
 		log.Fatal(err)
 	}
