@@ -12,8 +12,8 @@ nekos is a feature-complete _unofficial_ [nekos.life](https://nekos.life/) api w
 
 ## installation
 
-```
-go get github.com/x6r/nekos
+```sh
+go get -u github.com/x6r/nekos
 ```
 
 ## usage
