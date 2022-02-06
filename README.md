@@ -2,7 +2,7 @@
 
 > 🐾 nya~
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/x6r/nekos.svg)](https://pkg.go.dev/github.com/x6r/nekos)
+[![Go Reference](https://pkg.go.dev/badge/github.com/x6r/nekos.svg)](https://pkg.go.dev/github.com/x6r/nekos/v2)
 [![Go Report Card](https://goreportcard.com/badge/github.com/x6r/nekos)](https://goreportcard.com/report/github.com/x6r/nekos)
 [![Example](https://img.shields.io/badge/Example-__example%2F-C14DAA?style=flat)](https://github.com/x6r/nekos/blob/master/_example/main.go)
 
@@ -23,12 +23,17 @@ package main
 
 import (
 	"fmt"
+	"log"
 
 	"github.com/x6r/nekos"
 )
 
 func main() {
-	fmt.Println(nekos.CatText())
+	cat, err := nekos.CatText()
+	if err != nil {
+		log.Fatalln(err)
+	}
+	fmt.Println(cat)
 }
 ```
 

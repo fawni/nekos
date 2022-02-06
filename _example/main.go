@@ -4,16 +4,25 @@ package main
 
 import (
 	"fmt"
+	"log"
 
 	"github.com/x6r/nekos"
 )
 
 func main() {
-	fmt.Println(nekos.Owoify("notices your bulge"))
-	fmt.Println(nekos.Why())
-	fmt.Println(nekos.CatText())
-	fmt.Println(nekos.Cuddle())
-	fmt.Println(nekos.Kitsune())
-	eightBall := nekos.EightBall()
-	fmt.Printf("8ball response: %s\n8ball image: %s", eightBall.Text, eightBall.Image)
+	owoified, err := nekos.Owoify("notices your bulge")
+	if err != nil {
+		log.Fatalln(err)
+	}
+	fmt.Println(owoified)
+
+	catface, err := nekos.CatText()
+	if err != nil {
+		log.Fatalln(err)
+	}
+	eightBall, err := nekos.EightBall()
+	if err != nil {
+		log.Fatalln(err)
+	}
+	fmt.Printf("8ball response: %s %s\n8ball image: %s", eightBall.Text, catface, eightBall.Image)
 }
