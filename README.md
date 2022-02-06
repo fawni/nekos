@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/x6r/nekos"
+	"github.com/x6r/nekos/v2"
 )
 
 func main() {
