@@ -2,6 +2,7 @@
 
 > 🐾 nya~
 
+[![Latest Release](https://img.shields.io/github/release/x6r/nekos.svg)](https://github.com/x6r/nekos/releases)
 [![Go Reference](https://pkg.go.dev/badge/github.com/x6r/nekos.svg)](https://pkg.go.dev/github.com/x6r/nekos/v2)
 [![Go Report Card](https://goreportcard.com/badge/github.com/x6r/nekos)](https://goreportcard.com/report/github.com/x6r/nekos)
 [![Example](https://img.shields.io/badge/Example-__example%2F-C14DAA?style=flat)](https://github.com/x6r/nekos/blob/master/_example/main.go)
@@ -11,7 +12,7 @@ nekos is a feature-complete _unofficial_ [nekos.life](https://nekos.life/) api w
 ## installation
 
 ```sh
-go get -u github.com/x6r/nekos
+go get -u github.com/x6r/nekos/v2
 ```
 
 ## usage
@@ -31,7 +32,7 @@ func main() {
 	if err != nil {
 		log.Fatalln(err)
 	}
-	fmt.Println(cat)
+	fmt.Println(cat) // (ฅ’ω’ฅ)
 }
 ```
 
