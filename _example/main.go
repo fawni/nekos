@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/x6r/nekos/v2"
+	"github.com/fawni/nekos/v2"
 )
 
 func main() {
